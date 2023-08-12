@@ -7,11 +7,11 @@ const listagemProdutos = async (req, res) => {
 
 const vendas = async (req, res) => {
     const { produto_id, quantidade } = req.body;
-console.log(req.body)
+
     const produtoEncontrado = produtos.find((produto) => {
         return produto.id === Number(produto_id)
     });
-    console.log(produtoEncontrado)
+   
 
     if (!produtoEncontrado) {
         return res.status(404).json('O produto n foi encontrado.')
