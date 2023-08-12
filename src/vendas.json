@@ -1,0 +1,20 @@
+{
+    "vendas": [
+        {
+            "produto": {
+                "id": 1,
+                "nome": "TV Samsung 4K",
+                "valor": 129900
+            },
+            "quantidade": 5
+        },
+        {
+            "produto": {
+                "id": 8,
+                "nome": "Monitor LG 29 FHD",
+                "valor": 129900
+            },
+            "quantidade": 2
+        }
+    ]
+}
